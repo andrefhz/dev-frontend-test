@@ -1,0 +1,23 @@
+@use './_variable' as *;
+.logo-header {
+    width: 350px;
+    height: auto;
+}
+
+nav {
+
+    background-color: $primary;
+    
+    .nav-item {
+        padding: 0px 20px;
+        a {
+            color: $white;
+            font-weight: bold;
+
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+}
+

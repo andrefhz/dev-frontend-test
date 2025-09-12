@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">InduPoint logo — dark text</title>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .brand { font-family: "Montserrat", "DejaVu Sans", Arial, sans-serif; font-weight: 700; font-size: 64px; }
+      .tag   { font-family: "Montserrat", "DejaVu Sans", Arial, sans-serif; font-weight: 400; font-size: 28px; }
+    ]]></style>
+  </defs>
+
+  <!-- gear group at (140,150) -->
+  <g transform="translate(140,150)">
+    <!-- gear base circle -->
+    <circle cx="0" cy="0" r="64" fill="#1D4ED8" />
+
+    <!-- teeth (8) placed around center -->
+    <g fill="#1D4ED8">
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(0)"/>
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(45)"/>
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(90)"/>
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(135)"/>
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(180)"/>
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(225)"/>
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(270)"/>
+      <rect x="-12" y="-98" width="24" height="36" rx="6" transform="rotate(315)"/>
+    </g>
+
+    <!-- inner white ring and yellow center -->
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" />
+    <circle cx="0" cy="0" r="18" fill="#FACC15" />
+  </g>
+
+  <!-- Text group -->
+  <g transform="translate(260,180)">
+    <text x="0" y="-10" class="brand" fill="#1F2937">InduPoint</text>
+    <text x="0" y="36"  class="tag"   fill="#4B5563">Soluções Industriais de Ponta</text>
+  </g>
+</svg>

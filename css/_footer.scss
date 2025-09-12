@@ -1,0 +1,27 @@
+@use './_variable' as *;
+
+
+footer {
+    background-color: $primary;
+    padding: 3em;
+
+    img {
+        width: 350px;
+    }
+
+    h3 {
+        color: $secondary;
+    }
+
+    ul {
+        padding-left: 0px;
+        list-style: none;
+        li {
+            padding: 10px 0px;
+        } a {
+        color: $white;
+        text-decoration: none;
+        font-weight: 500;
+        }
+    }
+}

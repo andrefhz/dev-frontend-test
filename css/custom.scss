@@ -1,0 +1,8 @@
+@use './_variable' as *;
+@use './_header'   as *;
+@use './_footer'   as *;
+
+
+* {
+    font-family: $font;
+}
