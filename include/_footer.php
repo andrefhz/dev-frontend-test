@@ -26,14 +26,14 @@
     </div>
 </footer>
 
-</body>
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script type="text/javascript">
+<script>
         $(document).ready(function(){
             $('.banners').slick({
             autoplay: true,
@@ -44,4 +44,5 @@
         });
 </script>
 
+</body>
 </html>

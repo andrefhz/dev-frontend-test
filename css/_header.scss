@@ -1,6 +1,6 @@
 @use './_variable' as *;
 .logo-header {
-    width: 350px;
+    width: 250px;
     height: auto;
 }
 
@@ -19,5 +19,9 @@ nav {
             }
         }
     }
+}
+
+.navbar-toggler {
+    background-color: $secondary;
 }
 

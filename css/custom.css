@@ -1,5 +1,5 @@
 .logo-header {
-  width: 350px;
+  width: 250px;
   height: auto;
 }
 
@@ -17,14 +17,19 @@ nav .nav-item a:hover {
   color: #FACC15;
 }
 
+.navbar-toggler {
+  background-color: #FACC15;
+}
+
 footer {
   background-color: #1D4ED8;
   padding: 3em;
 }
 footer img {
-  width: 100%;
+  width: 350px;
   max-width: 100%;
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 footer h3 {
   color: #FACC15;
@@ -58,8 +63,118 @@ footer p {
 }
 
 .banner-01 {
-  background: url("../image/banner-01.jpg") no-repeat;
-  background-size: 100% 100%;
+  background: url(../image/banner-01.jpg) no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7294117647);
+  background-blend-mode: multiply;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.banner-01 h2 {
+  color: #fff;
+}
+.banner-01 p {
+  color: #fff;
+}
+
+.banner-02 {
+  background: url(../image/banner-02.jpg) no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7294117647);
+  background-blend-mode: multiply;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.banner-02 h2 {
+  color: #fff;
+}
+.banner-02 p {
+  color: #fff;
+}
+
+.banner-03 {
+  background: url(../image/banner-03.jpg) no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7294117647);
+  background-blend-mode: multiply;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.banner-03 h2 {
+  color: #fff;
+}
+.banner-03 p {
+  color: #fff;
+}
+
+.slick-track {
+  height: 400px;
+}
+
+.sobre-index {
+  padding: 4em 0em;
+}
+.sobre-index h1 {
+  color: #FACC15;
+}
+.sobre-index a {
+  background-color: #1D4ED8;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #1D4ED8;
+}
+.sobre-index a:hover {
+  color: #FACC15;
+  border: 1px solid #FACC15;
+  transition: all 0.3s ease-in-out;
+}
+
+.solucoes-index {
+  padding: 4em 0em;
+}
+.solucoes-index h2 {
+  color: #FACC15;
+}
+
+.card-index {
+  width: 300px;
+  height: 300px;
+  background: #1D4ED8;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em 0em;
+  transition: all 0.3s ease-in-out;
+}
+.card-index:hover {
+  margin: 0em;
+  transition: all 0.3s ease-in-out;
+}
+.card-index h3 {
+  color: #FACC15;
+}
+.card-index svg {
+  color: #fff;
+}
+.card-index p {
+  color: #fff;
 }
 
 .banners {
@@ -68,4 +183,204 @@ footer p {
 
 .draggable {
   max-height: 400px;
+}
+
+.localizacao-index {
+  padding: 4em 0em;
+}
+.localizacao-index h2 {
+  color: #FACC15;
+}
+.localizacao-index .frame iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.parallax-section {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../image/paralax.jpg); /* Substitua pela sua imagem */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.parallax-content {
+  display: flex;
+  gap: 4em;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2em 3em;
+  border-radius: 10px;
+  width: 450px;
+  justify-content: center;
+}
+
+.stat .number {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.stat .label {
+  font-size: 1.2em;
+  margin-top: 0.3em;
+}
+
+.empresa {
+  padding: 4em 0em;
+}
+.empresa h2 {
+  color: #FACC15;
+}
+.empresa img:first-child {
+  height: 500px;
+  box-shadow: 9px -9px 0px 5px #1D4ED8;
+  transition: all 0.3s ease-in-out;
+}
+.empresa img:first-child:hover {
+  box-shadow: 9px 10px 0px 5px #FACC15;
+  transition: all 0.3s ease-in-out;
+}
+
+/* From Uiverse.io by fanishah */
+.card {
+  width: 300px;
+  height: 350px;
+  background-color: #1D4ED8;
+  border-radius: 1rem;
+  border: #FACC15 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem rgba(0, 0, 0, 0.2509803922);
+  padding: 2em;
+}
+.card:hover {
+  transform: translateY(-1.5rem);
+  border: #FACC15 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+}
+
+.roll-in-blurred-left {
+  animation: roll-in-blurred-left 2s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+@keyframes roll-in-blurred-left {
+  0% {
+    transform: translateX(-1000px) rotate(-720deg);
+    filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.mouse_scroll {
+  display: block;
+  margin: 0 auto;
+  width: 24px;
+  height: 100px;
+  margin-top: 35px;
+}
+
+.m_scroll_arrows {
+  display: block;
+  width: 5px;
+  height: 5px; /* IE 9 */ /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  margin: 0 0 3px 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.unu {
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei {
+  animation: mouse-scroll 1s infinite;
+}
+
+.unu {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.doi {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-direction: alternate;
+  animation-delay: 0.2s;
+  animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.trei {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-direction: alternate;
+  animation-delay: 0.3s;
+  animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid #000;
+  top: 170px;
+}
+
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: #000;
+  position: relative;
+  height: 4px;
+  width: 4px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.wheel {
+  animation: mouse-wheel 0.6s linear infinite;
+}
+@keyframes mouse-wheel {
+  0% {
+    top: 1px;
+  }
+  25% {
+    top: 2px;
+  }
+  50% {
+    top: 3px;
+  }
+  75% {
+    top: 2px;
+  }
+  100% {
+    top: 1px;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=custom.css.map */
