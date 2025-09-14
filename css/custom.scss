@@ -6,3 +6,16 @@
 * {
     font-family: $font;
 }
+
+.banner-01 {
+    background: url('../image/banner-01.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.banners {
+    max-height: 400px;
+}
+
+.draggable {
+    max-height: 400px;
+}

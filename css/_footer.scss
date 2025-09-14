@@ -6,7 +6,9 @@ footer {
     padding: 3em;
 
     img {
-        width: 350px;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 3em;
     }
 
     h3 {
@@ -18,10 +20,24 @@ footer {
         list-style: none;
         li {
             padding: 10px 0px;
-        } a {
+        } 
+        a {
         color: $white;
         text-decoration: none;
         font-weight: 500;
+        transition: all .3s ease-in-out;
+        margin-left: 0px;
+            &:hover {
+                color: $secondary;
+                margin-left: 10px;
+                transition: all .3s ease-in-out;
+            }
         }
+    }
+
+    p  {
+        color: $white;
+        margin-left: 0;
+        
     }
 }

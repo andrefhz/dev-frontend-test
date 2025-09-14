@@ -22,7 +22,9 @@ footer {
   padding: 3em;
 }
 footer img {
-  width: 350px;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 3em;
 }
 footer h3 {
   color: #FACC15;
@@ -38,8 +40,32 @@ footer ul a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  margin-left: 0px;
+}
+footer ul a:hover {
+  color: #FACC15;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+footer p {
+  color: #fff;
+  margin-left: 0;
 }
 
 * {
   font-family: "Fira Sans", sans-serif;
+}
+
+.banner-01 {
+  background: url("../image/banner-01.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.banners {
+  max-height: 400px;
+}
+
+.draggable {
+  max-height: 400px;
 }/*# sourceMappingURL=custom.css.map */
