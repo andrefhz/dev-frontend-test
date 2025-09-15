@@ -28,6 +28,18 @@ O desenvolvimento foi realizado com foco em **performance, modularidade e escala
 
 ---
 
+## 📰 SEO !
+
+O projeto foi desenvolvido com atenção especial às **boas práticas de SEO**, garantindo melhor performance nos motores de busca. Entre as estratégias adotadas estão:
+
+- Uso correto de **tags semânticas** (`header`, `footer`, `main`, `section`, etc.), que facilitam a indexação e melhoram a estrutura do conteúdo.  
+- Criação de **meta descriptions** descritivas e relevantes para cada página, aumentando a taxa de clique (CTR) nos resultados de busca.  
+- Otimização de **imagens e mídia**, com compressão e atributos `alt`, garantindo carregamento rápido e acessibilidade.  
+- Estrutura de **URLs amigáveis**, refletindo o conteúdo de cada página de forma clara e objetiva.  
+- Implementação de **performance e tempo de carregamento** como prioridade, reduzindo o tempo de resposta das páginas e melhorando a experiência do usuário.  
+
+---
+
 ## 📰 API - NewsData.io 
 
 O site consome a **API NewsData.io** para exibir as últimas notícias sobre negócios no Brasil. A escolha desta API se deu por sua simplicidade, suporte a múltiplos idiomas e categorias, além de fornecer **título, descrição, imagem e link** de cada notícia, permitindo integrar um feed informativo diretamente ao site.  
