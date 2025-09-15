@@ -9,6 +9,7 @@
                 <ul>
                     <li><a href="index" title="Home">Home</a></li>
                     <li><a href="empresa" title="Empresa">Empresa</a></li>
+                    <li><a href="galeria" title="Galeria">Galeria</a></li>
                     <li><a href="produtos" title="Produtos">Produtos</a></li>
                     <li><a href="contato" title="Contato">Contato</a></li>
                 </ul>
@@ -31,6 +32,7 @@
 <script src="js/jquery-migrate.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slick.js"></script>
+<script src="js/fancy.js"></script>
 <script src="js/custom.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 

@@ -15,6 +15,10 @@
         <li class="nav-item">
           <a class="nav-link" href="empresa">Empresa</a>
         </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="galeria">Galeria</a>
+        </li>
          <li class="nav-item">
           <a class="nav-link" href="produtos">Produtos</a>
         </li>

@@ -56,11 +56,7 @@ const API_KEY = "pub_3fc8435fa0204c5ab55dba0c0eff1094";
       data.results.slice(0, 6).forEach(noticia => {
         const card = document.createElement("div");
         card.classList.add("col-sm-12", "col-md-6", "col-lg-4");
-<<<<<<< HEAD
         card.innerHTML =
-=======
-       card.innerHTML =
->>>>>>> a5f91ab16513e8b2e0ea5e1dd5ba8ddd9ba1732d
         '<div class="card-noticia">' +
           (noticia.image_url
             ? '<img src="' + noticia.image_url + '" alt="' + noticia.title + '" class="img-fluid">'
@@ -78,4 +74,12 @@ const API_KEY = "pub_3fc8435fa0204c5ab55dba0c0eff1094";
   }
 
   carregarNoticias();
+
+
+  // Galeria
+
+
+  Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+  });
 

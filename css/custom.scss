@@ -674,3 +674,22 @@
     font-weight: 400;
 }
 
+// Galeria rapida e simples xD
+
+
+.galeria {
+
+  padding: 4em 0em;
+
+  h2 {
+    color: $secondary;
+  }
+}
+
+.img-galeria {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 1em 0em;
+}
+
