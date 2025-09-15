@@ -124,6 +124,16 @@
 
 </section>
 
+<section class="noticias">
+  <div class="container">
+    <h2>Últimas Notícias</h2>
+    <div id="news-container" class="row"></div>
+  </div>
+</section>
+
+
+
+
 
 
 <section class="localizacao-index">

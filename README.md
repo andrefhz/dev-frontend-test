@@ -24,6 +24,15 @@ O desenvolvimento foi realizado com foco em **performance, modularidade e escala
 - **Bootstrap** 
 - **jQuery + Slick.js**
 - **Font Awesome** 
+- **NewsData.io**
+
+---
+
+## 📰 API - NewsData.io 
+
+O site consome a **API NewsData.io** para exibir as últimas notícias sobre negócios no Brasil. A escolha desta API se deu por sua simplicidade, suporte a múltiplos idiomas e categorias, além de fornecer **título, descrição, imagem e link** de cada notícia, permitindo integrar um feed informativo diretamente ao site.  
+
+A integração das notícias na página foi realizada utilizando JavaScript, criando dinamicamente os elementos e aplicando as classes do Bootstrap, garantindo que o conteúdo seja exibido de forma responsiva em diferentes dispositivos.
 
 ---
 
