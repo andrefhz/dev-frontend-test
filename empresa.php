@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +23,18 @@
 <body>
 
 <?php include 'include/_header.php'; ?>
+
+<section class="breadcrumb-section">
+  <div class="container">
+    <div class="breadcrumb-wrapper">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.php" title="Home">Home</a></li>
+        <li class="breadcrumb-item"><a href="empresa.php" title="Empresa">Empresa</a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
 
     
 <section class="empresa">

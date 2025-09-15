@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,30 +73,7 @@
   </div>
 </section>
 
-<script>
 
-document.addEventListener('DOMContentLoaded', () => {
-  const numbers = document.querySelectorAll('.number');
-
-  numbers.forEach(number => {
-    const target = +number.getAttribute('data-target');
-    let count = 0;
-    const increment = Math.ceil(target / 300); // Ajusta a velocidade
-
-    const updateNumber = () => {
-      count += increment;
-      if (count > target) count = target;
-      number.textContent = count;
-      if (count < target) {
-        requestAnimationFrame(updateNumber);
-      }
-    };
-
-    updateNumber();
-  });
-});
-
-</script>
 
 
 <section class="solucoes-index">

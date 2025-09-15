@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/custom.css">
-
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -23,17 +23,71 @@
 
 <?php include 'include/_header.php'; ?>
 
+<section class="breadcrumb-section">
+  <div class="container">
+    <div class="breadcrumb-wrapper">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.php" title="Home">Home</a></li>
+        <li class="breadcrumb-item"><a href="produtos.php" title="Produtos">Produtos</a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+
+
+
     
 <section class="produtos">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img src="image/produto-01.jpg" alt="" title="">
-                    <h2>TESTEEE</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ab necessitatibus recusandae sit! Doloremque, delectus cumque. Hic repellat nisi laboriosam asperiores perferendis, error officia molestias in sit dignissimos sed voluptate?</p>
-                </div>
+            <div class="col-sm-12">
+                <h2>Conheça nossos produtos</h2>
             </div>
+        </div>
+        <div class="row">
+            
+            <?php
+            // Array de produtos industriais
+            $produtos = [
+                [
+                    "nome" => "Válvula Reguladora de Pressão Hidráulica",
+                    "imagem" => "image/produtos/produto-01.jpg"
+                ],
+                [
+                    "nome" => "Engrenagem Cônica de Precisão",
+                    "imagem" => "image/produtos/produto-02.jpg"
+                ],
+                [
+                    "nome" => "Rolamento Esférico de Carga Pesada",
+                    "imagem" => "image/produtos/produto-03.jpg"
+                ],
+                [
+                    "nome" => "Bomba Centrífuga Industrial",
+                    "imagem" => "image/produtos/produto-04.jpg"
+                ],
+                [
+                    "nome" => "Acoplamento Flexível de Torque",
+                    "imagem" => "image/produtos/produto-05.jpg"
+                ],
+                [
+                    "nome" => "Cilindro Pneumático de Dupla Ação",
+                    "imagem" => "image/produtos/produto-06.jpg",
+                ]
+            ];
+
+            
+            foreach ($produtos as $produto): ?>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="<?= $produto['imagem']; ?>" class="img-fluid" alt="<?= $produto['nome']; ?>" title="<?= $produto['nome']; ?>">
+                        <h3><?= $produto['nome']; ?></h3>
+                        <a href="#" title="Veja mais sobre <?= $produto['nome']; ?>">Veja mais</a>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+
+
         </div>
     </div>
 </section>

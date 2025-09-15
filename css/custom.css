@@ -162,6 +162,7 @@ footer p {
   justify-content: center;
   margin: 1em 0em;
   transition: all 0.3s ease-in-out;
+  gap: 1em;
 }
 .card-index:hover {
   margin: 0em;
@@ -172,6 +173,7 @@ footer p {
 }
 .card-index svg {
   color: #fff;
+  font-size: 25px;
 }
 .card-index p {
   color: #fff;
@@ -230,6 +232,42 @@ footer p {
   margin-top: 0.3em;
 }
 
+.breadcrumb-section {
+  background: url(../image/banner-01.jpg);
+  padding: 59px 0;
+  background-color: rgba(0, 0, 0, 0.5607843137);
+  background-blend-mode: multiply;
+}
+
+.breadcrumb-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.breadcrumb {
+  background: transparent;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: 1em;
+  border-left: 4px solid #FACC15;
+}
+
+.breadcrumb-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #fff;
+  padding: 0 8px;
+}
+
 .empresa {
   padding: 4em 0em;
 }
@@ -244,23 +282,6 @@ footer p {
 .empresa img:first-child:hover {
   box-shadow: 9px 10px 0px 5px #FACC15;
   transition: all 0.3s ease-in-out;
-}
-
-/* From Uiverse.io by fanishah */
-.card {
-  width: 300px;
-  height: 350px;
-  background-color: #1D4ED8;
-  border-radius: 1rem;
-  border: #FACC15 0.2rem solid;
-  transition: all 0.4s ease-in;
-  box-shadow: 0.4rem 0.4rem 0.6rem rgba(0, 0, 0, 0.2509803922);
-  padding: 2em;
-}
-.card:hover {
-  transform: translateY(-1.5rem);
-  border: #FACC15 0.2em solid;
-  border-radius: 2.5rem 0 2.5rem 0;
 }
 
 .roll-in-blurred-left {
@@ -383,4 +404,120 @@ footer p {
   100% {
     opacity: 1;
   }
+}
+.produtos {
+  padding: 4em 0em;
+}
+.produtos h2 {
+  color: #FACC15;
+  padding-bottom: 2em;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 1rem;
+  border: #1D4ED8 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem rgba(0, 0, 0, 0.2509803922);
+  padding: 2em;
+  margin: 1.5em 0em;
+  justify-content: center;
+  gap: 2em;
+}
+.card:hover {
+  transform: translateY(-1.5rem);
+  border: #FACC15 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+}
+.card img {
+  width: 150px;
+}
+.card a {
+  background-color: #1D4ED8;
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #1D4ED8;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact {
+  padding: 130px 0;
+}
+
+.contact .heading h2 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #1D4ED8;
+}
+
+.contact .heading h2 span {
+  color: #FACC15;
+}
+
+.contact .heading p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 20px 0 60px;
+  padding: 0;
+}
+
+.contact .form-control {
+  padding: 25px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 0;
+  border-radius: 10px;
+  border: 1px solid #1D4ED8;
+}
+
+.contact button.btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #1D4ED8;
+  color: #fff;
+}
+
+.contact .title h3 {
+  font-weight: 600;
+  color: #1D4ED8;
+}
+
+.contact .title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 40px;
+}
+
+.contact .content .info {
+  margin-top: 30px;
+}
+
+.contact .content .info i {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: #1D4ED8;
+  margin-right: 20px;
+  text-align: center;
+  width: 20px;
+}
+
+.contact .content .info h4 {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.contact .content .info h4 span {
+  font-size: 16px;
+  font-weight: 400;
 }/*# sourceMappingURL=custom.css.map */
