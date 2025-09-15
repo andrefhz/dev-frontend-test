@@ -10,16 +10,16 @@
       <ul class="navbar-nav mb-2 mb-lg-0">
         
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Home</a>
+          <a class="nav-link" href="index">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="empresa.php">Empresa</a>
+          <a class="nav-link" href="empresa">Empresa</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="produtos.php">Produtos</a>
+          <a class="nav-link" href="produtos">Produtos</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="contato.php">Contato</a>
+          <a class="nav-link" href="contato">Contato</a>
         </li>
       </ul>
     </div>

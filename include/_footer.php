@@ -7,10 +7,10 @@
             <div class="col-sm-12 col-sm-12 col-md-6 col-lg-4">
                 <h3>Menu</h3>
                 <ul>
-                    <li><a href="index.php" title="Home">Home</a></li>
-                    <li><a href="empresa.php" title="Empresa">Empresa</a></li>
-                    <li><a href="produtos.php" title="Produtos">Produtos</a></li>
-                    <li><a href="contato.php" title="Contato">Contato</a></li>
+                    <li><a href="index" title="Home">Home</a></li>
+                    <li><a href="empresa" title="Empresa">Empresa</a></li>
+                    <li><a href="produtos" title="Produtos">Produtos</a></li>
+                    <li><a href="contato" title="Contato">Contato</a></li>
                 </ul>
             </div>
 

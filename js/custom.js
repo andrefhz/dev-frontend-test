@@ -56,14 +56,15 @@ const API_KEY = "pub_3fc8435fa0204c5ab55dba0c0eff1094";
       data.results.slice(0, 6).forEach(noticia => {
         const card = document.createElement("div");
         card.classList.add("col-sm-12", "col-md-6", "col-lg-4");
-        card.innerHTML = `
-          <div class="card-noticia">
-            ${noticia.image_url ? `<img src="${noticia.image_url}" alt="${noticia.title}" class="img-fluid">` : ""}
-            <h3>${noticia.title}</h3>
-            <p>${noticia.description ? noticia.description.substring(0, 120) + "..." : ""}</p>
-            <a href="${noticia.link}" target="_blank" rel="noopener">Leia mais</a>
-          </div>
-        `;
+        card.innerHTML =
+        '<div class="card-noticia">' +
+          (noticia.image_url
+            ? '<img src="' + noticia.image_url + '" alt="' + noticia.title + '" class="img-fluid">'
+            : "") +
+          "<h3>" + noticia.title + "</h3>" +
+          "<p>" + (noticia.description ? noticia.description.substring(0, 120) + "..." : "") + "</p>" +
+          '<a href="' + noticia.link + '" target="_blank" rel="noopener">Leia mais</a>' +
+        "</div>";
         container.appendChild(card);
       });
     } catch (error) {
